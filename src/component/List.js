@@ -4,11 +4,9 @@ import { removeTodoList } from "../redux/action";
 
 const List = (props) => {
 
-
-    console.log("props.data", props.data)
     return (
 
-        <div className="flex flex-col  w-3/4 px-10 py-10 h-fit mt-6 bg-white rounded-xl" >
+        <div className="flex flex-col  w-3/4 px-3 py-10 h-fit mt-6 bg-white rounded-xl" >
 
             <div className=" flex flex-col content-center  justify-center w-full rounded-md bg-white">
                 {
